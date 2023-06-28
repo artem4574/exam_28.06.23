@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-LABEL auth="Savrasov_Artem_221_351"
+# Savrasov_Artem_221_351
 
 ENV TZ=Europe/Moscow
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
